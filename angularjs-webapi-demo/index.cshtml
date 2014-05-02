@@ -1,0 +1,28 @@
+﻿@using System.Web.Optimization
+
+<!DOCTYPE html>
+<html ng-app="stockApp" ng-cloak>
+<head>
+    <title>Angular Stocks</title>
+
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div class="container">
+        <div class="navbar navbar-default" role="navigation" bs-navbar>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">MyStocks</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li data-match-route="/overview"><a href="#/overview">Overview</a></li>
+                <li data-match-route="/details"><a href="#/details">Details</a></li>
+            </ul>
+        </div>
+
+        <ng-view></ng-view>
+    </div>
+
+    @Scripts.Render("~/Scripts/lib")
+    @Scripts.Render("~/Scripts/app")
+</body>
+</html>
