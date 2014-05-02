@@ -21,8 +21,8 @@ namespace angularjs_webapi_demo.App_Start
 
             bundles.Add(new ScriptBundle("~/Scripts/app").Include(
                 "~/Client/app.js",
-                "~/Client/overview/overviewCtrl.js",
-                "~/Client/details/detailsCtrl.js",
+                "~/Client/pages/overview/overviewCtrl.js",
+                "~/Client/pages/details/detailsCtrl.js",
                 "~/Client/components/stockChartDirective.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(

@@ -108,14 +108,14 @@
   <ItemGroup>
     <Content Include="Client\app.js" />
     <Content Include="Client\components\stockChartDirective.js" />
-    <Content Include="Client\details\details.html" />
-    <Content Include="Client\details\detailsCtrl.js" />
+    <Content Include="Client\pages\details\details.html" />
+    <Content Include="Client\pages\details\detailsCtrl.js" />
     <Content Include="Client\lib\clippy\clippy.css" />
     <Content Include="Client\lib\clippy\clippy.js" />
     <Content Include="Client\lib\clippy\clippy.min.js" />
     <Content Include="Client\lib\highstock\highstock.js" />
     <Content Include="Client\lib\highstock\highstock.min.js" />
-    <Content Include="Client\overview\overview.html" />
+    <Content Include="Client\pages\overview\overview.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -145,7 +145,7 @@
     <Content Include="Scripts\angular-touch.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
-    <Content Include="Client\overview\overviewCtrl.js" />
+    <Content Include="Client\pages\overview\overviewCtrl.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\i18n\angular-locale_af-na.js" />

@@ -4,10 +4,10 @@ app.config(['$routeProvider',
   function ($routeProvider) {
       $routeProvider
         .when('/overview', {
-            templateUrl: 'client/overview/overview.html'
+            templateUrl: 'client/pages/overview/overview.html'
         })
         .when('/details', {
-            templateUrl: 'client/details/details.html'
+            templateUrl: 'client/pages/details/details.html'
         })
         .otherwise({
             redirectTo: '/overview'
