@@ -111,7 +111,7 @@
     <Content Include="Client\app.js" />
     <Content Include="Client\components\stockChartDirective.js" />
     <Content Include="Client\pages\details\details.html" />
-    <TypeScriptCompile Include="Client\pages\details\detailsCtrl.ts" />
+    <Content Include="Client\pages\details\detailsCtrl.js" />
     <Content Include="Client\lib\clippy\clippy.css" />
     <Content Include="Client\lib\clippy\clippy.js" />
     <Content Include="Client\lib\clippy\clippy.min.js" />
