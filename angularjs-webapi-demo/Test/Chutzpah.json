@@ -6,6 +6,7 @@
         {"Path": "../Scripts/angular.js"},
         {"Path": "../Scripts/angular-mocks.js"},
         {"Path": "../Scripts/angular-route.js"},
+        {"Path": "../Scripts/angular-animate.js"},
         {"Path": "../Scripts/angular-strap.js"},
         {"Path": "../Scripts/angular-strap.tpl.js"},
         {"Path": "../Client", "include": "*.js", "exclude":  "*lib/*"}
