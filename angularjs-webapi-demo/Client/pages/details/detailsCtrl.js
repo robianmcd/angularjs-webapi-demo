@@ -1,8 +1,9 @@
-﻿var DetailsCtrl = function ($http, $location, $rootScope) {
+﻿var DetailsCtrl = function ($http, $location, $timeout, $rootScope) {
     var _this = this;
 
     this.$http = $http;
     this.$location = $location;
+    this.$timeout = $timeout;
     this.$rootScope = $rootScope;
 
     $http.get('api/stocks/info').success(function (data) {
@@ -23,7 +24,7 @@
 };
 
 DetailsCtrl.prototype.onSelectedStockChange = function () {
-    $rootScope.viewAnimation = '';
+    this.$rootScope.viewAnimation = '';
     this.$location.search('symbol', this.selectedStockInfo.symbol);
 };
 
@@ -31,6 +32,11 @@ DetailsCtrl.prototype.loadStockPricesForSymbol = function (symbol) {
     var _this = this;
 
     this.$http.get('api/stocks/price/' + symbol).success(function (data) {
+        _this.rowAnimateClass = '';
+        _this.$timeout(function () {
+            _this.rowAnimateClass = 'row-slide-end';
+        },100);
+
         _this.stockPrices = data;
     });
 }
