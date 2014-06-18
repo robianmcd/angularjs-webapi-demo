@@ -14,12 +14,19 @@
                 <a class="navbar-brand" href="#">MyStocks</a>
             </div>
             <ul class="nav navbar-nav">
-                <li data-match-route="/overview"><a href="#/overview">Overview</a></li>
-                <li data-match-route="/details"><a href="#/details">Details</a></li>
+                <li data-match-route="/overview">
+                    <a href="#/overview" ng-click="viewAnimation = 'slide-right'">Overview</a>
+                </li>
+                <li data-match-route="/details">
+                    <a href="#/details" ng-click="viewAnimation = 'slide-left'">Details</a>
+                </li>
             </ul>
         </div>
 
-        <ng-view></ng-view>
+        <div style="position:relative;">
+            <ng-view ng-class="viewAnimation" class="slide"></ng-view>
+        </div>
+        
     </div>
 
     @Scripts.Render("~/Scripts/lib")

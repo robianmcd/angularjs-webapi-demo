@@ -1,4 +1,5 @@
 ﻿<div ng-controller="OverviewCtrl as ctrl">
+
     <h1 class="text-center">Overview</h1>
 
     <form class="form-inline">
@@ -20,7 +21,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr ng-repeat="stockInfo in ctrl.stocksInfo | filter:ctrl.search" ng-click="ctrl.goToStockDetails(stockInfo)">
+            <tr class="squish" ng-repeat="stockInfo in ctrl.stocksInfo | filter:ctrl.search" ng-click="ctrl.goToStockDetails(stockInfo)">
                 <td>{{stockInfo.name}}</td>
                 <td>{{stockInfo.symbol}}</td>
                 <td>{{stockInfo.change}}</td>

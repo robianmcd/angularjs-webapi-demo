@@ -16,6 +16,7 @@ namespace angularjs_webapi_demo.App_Start
                 "~/Client/lib/clippy/clippy.js",
                 "~/Scripts/angular.js",
                 "~/Scripts/angular-route.js",
+                "~/Scripts/angular-animate.js",
                 "~/Scripts/angular-strap.js",
                 "~/Scripts/angular-strap.tpl.js"));
 
@@ -27,7 +28,8 @@ namespace angularjs_webapi_demo.App_Start
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/lib/clippy/clippy.css",
-                "~/Content/bootstrap.css"));
+                "~/Content/bootstrap.css",
+                "~/Client/styles.css"));
         }
     }
 }
