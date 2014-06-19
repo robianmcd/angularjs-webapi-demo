@@ -10,3 +10,5 @@
 *.user
 /packages
 *.suo
+/angularjs-webapi-demo/Test/_Chutzpah.7a61493c876957ec396b76c086e0794e.test.html
+/_Chutzpah.coverage.html

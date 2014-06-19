@@ -13,21 +13,21 @@
       <FontsAndColors Version="2.0">
         <Categories>
           <Category GUID="{1F987C00-E7C4-4869-8A17-23FD602268B0}"
-          FontName="Segoe UI" FontSize="14" CharSet="0" FontIsDefault="No"/>
+          FontName="Segoe UI" FontSize="20" CharSet="0" FontIsDefault="No"/>
           <Category GUID="{5C48B2CB-0366-4FBF-9786-0BB37E945687}"
-          FontName="Segoe UI" FontSize="14" CharSet="0" FontIsDefault="No"/>
+          FontName="Segoe UI" FontSize="20" CharSet="0" FontIsDefault="No"/>
           <Category GUID="{6BB65C5A-2F31-4BDE-9F48-8A38DC0C63E7}"
-          FontName="Segoe UI" FontSize="14" CharSet="0" FontIsDefault="No"/>
+          FontName="Segoe UI" FontSize="20" CharSet="0" FontIsDefault="No"/>
           <Category GUID="{9973EFDF-317D-431C-8BC1-5E88CBFD4F7F}"
-          FontName="Segoe UI" FontSize="14" CharSet="0" FontIsDefault="No"/>
+          FontName="Segoe UI" FontSize="20" CharSet="0" FontIsDefault="No"/>
           <Category GUID="{A27B4E24-A735-4D1D-B8E7-9716E1E3D8E0}"
-          FontName="Segoe UI" FontSize="14" CharSet="0" FontIsDefault="No"/>
+          FontName="Segoe UI" FontSize="20" CharSet="0" FontIsDefault="No"/>
           <Category GUID="{A9A5637F-B2A8-422E-8FB5-DFB4625F0111}"
-          FontName="Segoe UI" FontSize="14" CharSet="1" FontIsDefault="No"/>
+          FontName="Segoe UI" FontSize="20" CharSet="1" FontIsDefault="No"/>
           <Category GUID="{C1614BB1-734F-4A31-BD42-5AE6275E16D2}"
-          FontName="Segoe UI" FontSize="14" CharSet="1" FontIsDefault="No"/>
+          FontName="Segoe UI" FontSize="20" CharSet="1" FontIsDefault="No"/>
           <Category GUID="{EE1BE240-4E81-4BEB-8EEA-54322B6B1BF5}"
-          FontName="Segoe UI" FontSize="14" CharSet="0" FontIsDefault="No"/>
+          FontName="Segoe UI" FontSize="20" CharSet="0" FontIsDefault="No"/>
         </Categories>
       </FontsAndColors>
     </Category>
