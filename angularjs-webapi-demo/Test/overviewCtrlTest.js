@@ -29,7 +29,4 @@
         expect($location.url()).toEqual('/details?symbol=TEST');
     });
 
-    it("test() should return 1", function () {
-        expect(overviewCtrl.test()).toEqual(1);
-    });
 });
