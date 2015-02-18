@@ -23,6 +23,8 @@
     
 };
 
+angular.module('stockApp').controller('DetailsCtrl', DetailsCtrl);
+
 DetailsCtrl.prototype.onSelectedStockChange = function () {
     this.$rootScope.viewAnimation = '';
     this.$location.search('symbol', this.selectedStockInfo.symbol);

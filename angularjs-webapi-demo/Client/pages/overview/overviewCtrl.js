@@ -8,6 +8,8 @@
     });
 };
 
+angular.module('stockApp').controller('OverviewCtrl', OverviewCtrl);
+
 OverviewCtrl.prototype.goToStockDetails = function (stockInfo) {
     this.$rootScope.viewAnimation = 'slide-left';
     this.$location.path('details').search('symbol', stockInfo.symbol);
