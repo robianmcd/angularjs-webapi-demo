@@ -143,6 +143,7 @@
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Scripts\angular-strap.min.js.map" />
     <None Include="Scripts\jquery-2.1.3.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -171,7 +172,6 @@
     <Content Include="index.cshtml" />
     <Content Include="Test\Chutzpah.json" />
     <Content Include="Scripts\angular-strap.tpl.min.js.map" />
-    <Content Include="Scripts\angular-strap.min.js.map" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\angular-route.min.js.map" />
     <Content Include="Scripts\angular-animate.min.js.map" />

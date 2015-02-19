@@ -3,9 +3,6 @@
 ################################################################################
 
 /angularjs-webapi-demo/bin
-/angularjs-webapi-demo/Scripts
-/angularjs-webapi-demo/Content
-/angularjs-webapi-demo/fonts
 /angularjs-webapi-demo/obj/Debug
 *.user
 /packages
